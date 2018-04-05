@@ -18,10 +18,27 @@ body {
 	margin: 0 auto;
 }
 
+p {
+	margin: 0 0 15px
+}
+
+h1 {
+	margin: 50px 0 25px
+}
+
+section {
+	padding: 50px 25px
+}
+
 .bg-odd {
 	background: #ddd
 }
 
 .bg-even {
 	background: #eee
+}
+
+h3 {
+	margin: 10px 0;
+	text-align: center
 }
