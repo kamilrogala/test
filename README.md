@@ -9,12 +9,14 @@ Some section
 - list
 - list
 - list
+
 1. list
 2. list
 3. list
--[] List
--[] List
--[x] List
+
+- [] List
+- [] List
+- [x] List
 
 Some other section
 --------------------------------------
@@ -30,7 +32,9 @@ Some another section
 --------------------------------------
 
 > My very stupid quote
+
 > Quote of my dog
+
 > random Stuff
 
 Lets code!
