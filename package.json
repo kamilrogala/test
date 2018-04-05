@@ -1,0 +1,23 @@
+{
+  "name": "my-first-git-stuff",
+  "version": "1.0.0",
+  "description": "simple stuff for git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilrogala/test.git"
+  },
+  "keywords": [
+    "test",
+    "first-repo"
+  ],
+  "author": "Kamil Rogala <contact@kamilrogala.it> (https://kamilrogala.it)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamilrogala/test/issues"
+  },
+  "homepage": "https://github.com/kamilrogala/test#readme"
+}

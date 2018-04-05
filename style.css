@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: 400
+}
+
+body {
+	background: #fcfcfc;
+	color: #202020;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 1.2;
+	text-align: justify
+}
+
+.wrapper {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.bg-odd {
+	background: #ddd
+}
+
+.bg-even {
+	background: #eee
+}
