@@ -38,7 +38,8 @@ Some another section
 > random Stuff
 
 Lets code!
-`
+
+```js
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
@@ -82,7 +83,8 @@ gulp.task('sass', () => {
 gulp.watch('./src/scss/**/*.scss', ['sass']);
 gulp.watch('./src/css/**/*.css', ['css']);
 gulp.watch('./src/js/**/*.js', ['uglify']);
-`
+```
+
 Yet one more section
 --------------------------------------
 
