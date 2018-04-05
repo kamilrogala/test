@@ -14,8 +14,8 @@ Some section
 2. list
 3. list
 
-- [] List
-- [] List
+- [ ] List
+- [ ] List
 - [x] List
 
 Some other section
