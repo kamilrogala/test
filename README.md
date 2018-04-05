@@ -49,35 +49,35 @@ const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 
 gulp.task('default', ['sass'], () => {
-	console.log('poszlo');
+  console.log('poszlo');
 });
 
 gulp.task('uglify', () => {
-	return gulp.src('./src/js/**/*.js')
-	.pipe(concat('script.js'))
-	.pipe(uglify())
-	.pipe(gulp.dest('./dist/js'));
+  return gulp.src('./src/js/**/*.js')
+  .pipe(concat('script.js'))
+  .pipe(uglify())
+  .pipe(gulp.dest('./dist/js'));
 });
 gulp.task('concaar', () => {});
 gulp.task('prefix', () => {});
 
 gulp.task('css', () => {
-	gulp.src('./src/css/**/*.css')
-		.pipe(concat('style.css'))
-		.pipe(cleanCSS())
-		.pipe(gulp.dest('./dist/css'))
+  gulp.src('./src/css/**/*.css')
+    .pipe(concat('style.css'))
+    .pipe(cleanCSS())
+    .pipe(gulp.dest('./dist/css'))
 });
 
 gulp.task('sass', () => {
-	console.log('odpalam sass')
-	return gulp.src('./src/scss/**/*.scss')
-		.pipe(sourcemaps.init())
-		.pipe(sass().on('error', sass.logError))
-		.pipe(autoprefixer({
-			browsers: ['last 70 versions']
-		}))
-		.pipe(sourcemaps.write())
-		.pipe(gulp.dest('./src/css'));
+  console.log('odpalam sass')
+  return gulp.src('./src/scss/**/*.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer({
+      browsers: ['last 70 versions']
+    }))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('./src/css'));
 });
 
 gulp.watch('./src/scss/**/*.scss', ['sass']);
